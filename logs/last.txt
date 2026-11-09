@@ -1,13 +1,2 @@
-run 42581968652 2026-11-09T08:08:30Z
-Tema: Reservas propias sin comisiones para restaurantes locales | escenas: 10
-paso: voz
-paso: render
-paso: audio
-paso: codificar
-Vídeo listo: {
-  file: '/home/runner/work/falbek-reels/falbek-reels/files/61f05de1f531e236.mp4',
-  seconds: 58.9,
-  frames: 1766
-}
-Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/61f05de1f531e236.mp4 video/mp4 12660632
-DRY_RUN: no se avisa a Make
+run 42687410610 2026-11-09T19:52:37Z
+Make respondió 200 Accepted

@@ -11,6 +11,13 @@ const env = process.env;
 const parseJson = (t) => JSON.parse(String(t).replace(/^[\s\S]*?(\{)/, '$1').replace(/```[\s\S]*$/, '').trim());
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+if (env.PUBLISH_TEST === '1') {          // prueba del escenario de publicación: programa una publicación de mentira para 2027
+  const payload = {video_url: env.TEST_VIDEO_URL, tema: 'PRUEBA', caption: 'Prueba de publicación automática de Falbek', hashtags: '#falbek', test: '1'};
+  const r = await fetch(env.MAKE_PUBLISH_URL, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(payload)});
+  console.log('Make respondió', r.status, await r.text());
+  process.exit(r.ok ? 0 : 1);
+}
+
 async function getScript() {
   if (env.JOB_JSON) return parseJson(env.JOB_JSON);
   let last;

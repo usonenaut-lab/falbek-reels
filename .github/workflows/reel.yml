@@ -12,6 +12,14 @@ on:
         description: '1 = no avisar a Make para publicar'
         required: false
         default: '0'
+      publish_test:
+        description: '1 = solo probar el escenario de publicación de Make con un vídeo ya subido'
+        required: false
+        default: '0'
+      test_video_url:
+        description: 'URL del vídeo para la prueba de publicación'
+        required: false
+        default: ''
       publish_pages:
         description: '1 = en modo dry_run, subir también el vídeo a GitHub Pages'
         required: false
@@ -48,6 +56,8 @@ jobs:
           JOB_JSON: ${{ github.event.inputs.job_json }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
           PUBLISH_PAGES: ${{ github.event.inputs.publish_pages == '1' && '1' || '' }}
+          PUBLISH_TEST: ${{ github.event.inputs.publish_test }}
+          TEST_VIDEO_URL: ${{ github.event.inputs.test_video_url }}
           TTS_PROVIDER: edge
           EDGE_VOICE: es-ES-AlvaroNeural
           EDGE_RATE: '+10%'

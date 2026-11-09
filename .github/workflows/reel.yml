@@ -50,6 +50,7 @@ jobs:
           PUBLISH_PAGES: ${{ github.event.inputs.publish_pages == '1' && '1' || '' }}
           TTS_PROVIDER: edge
           EDGE_VOICE: es-ES-AlvaroNeural
+          EDGE_RATE: '+10%'
           CHROMIUM_PATH: /usr/bin/google-chrome
           RENDER_CONCURRENCY: 2
         run: node script/daily.mjs 2>&1 | tee run.log

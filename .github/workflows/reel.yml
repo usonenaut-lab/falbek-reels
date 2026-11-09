@@ -12,6 +12,10 @@ on:
         description: '1 = no avisar a Make para publicar'
         required: false
         default: '0'
+      publish_pages:
+        description: '1 = en modo dry_run, subir también el vídeo a GitHub Pages'
+        required: false
+        default: '0'
 
 concurrency:
   group: reel
@@ -43,7 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JOB_JSON: ${{ github.event.inputs.job_json }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
-          PUBLISH_PAGES: ${{ github.event.inputs.job_json != '' && '1' || '' }}
+          PUBLISH_PAGES: ${{ github.event.inputs.publish_pages == '1' && '1' || '' }}
           TTS_PROVIDER: edge
           EDGE_VOICE: es-ES-AlvaroNeural
           CHROMIUM_PATH: /usr/bin/google-chrome

@@ -1,0 +1,8 @@
+{"steps":[{"icon":"cal","label":"Reserva"},{"icon":"bell","label":"Aviso"},{"icon":"chart","label":"Panel"}],
+ "scenes":[
+ {"type":"hook","h":"¿Cuánto te cobran|por cada reserva?","voice":"¿Cuánto te cobran por cada reserva?","chips":[{"text":"Reserva · Mesa 4","icon":"cal"},{"text":"Comisión","icon":"card","tone":"bad"},{"text":"Confirmada","icon":"check","tone":"good"}]},
+ {"type":"chat","h":"Imagina que|*tú* decides.","voice":"Imagina que decides tú.","chat":"Hola, quiero reservar mesa","reply":"Hecho. Te esperamos."},
+ {"type":"phone-booking","h":"Tus clientes|*reservan solos.*","sub":"Desde el móvil, a cualquier hora.","step":0,"voice":"Tus clientes reservan solos, desde el móvil, a cualquier hora.","chips":[{"text":"Sin llamadas","icon":"check"},{"text":"24 horas","icon":"globe"}]},
+ {"type":"tablet-admin","h":"Todo en tu|*panel.*","sub":"Reservas nuevas, al instante.","step":2,"voice":"Y todas las reservas llegan a tu panel al instante.","chips":[{"text":"Reserva nueva","icon":"cal"},{"text":"Tú decides","icon":"check","tone":"good"}]},
+ {"type":"cta","h":"Tu web,|con tus reglas.","sub":"Reservas directas. Sin comisiones.","voice":"Tu web, con tus reglas. Falbek punto com."}
+ ]}

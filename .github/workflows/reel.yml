@@ -1,0 +1,58 @@
+name: Reel diario
+
+on:
+  schedule:
+    - cron: '30 3 * * *'      # 03:30 UTC (04:30 en invierno / 05:30 en verano, hora de Madrid)
+  workflow_dispatch:
+    inputs:
+      job_json:
+        description: 'Guion en JSON (opcional; si se deja vacío se pide a Make)'
+        required: false
+      dry_run:
+        description: '1 = no avisar a Make para publicar'
+        required: false
+        default: '0'
+
+concurrency:
+  group: reel
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Dependencias del sistema
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg python3-pip
+          pip install --break-system-packages edge-tts numpy soundfile
+      - run: npm ci --no-audit --no-fund
+      - name: Crear y publicar el reel
+        env:
+          MAKE_SCRIPT_URL: ${{ secrets.MAKE_SCRIPT_URL }}
+          MAKE_PUBLISH_URL: ${{ secrets.MAKE_PUBLISH_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JOB_JSON: ${{ github.event.inputs.job_json }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          PUBLISH_PAGES: ${{ github.event.inputs.job_json != '' && '1' || '' }}
+          TTS_PROVIDER: edge
+          EDGE_VOICE: es-ES-AlvaroNeural
+          CHROMIUM_PATH: /usr/bin/google-chrome
+          RENDER_CONCURRENCY: 2
+        run: node script/daily.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reel-debug
+          path: reel.mp4
+          if-no-files-found: ignore
+          retention-days: 3

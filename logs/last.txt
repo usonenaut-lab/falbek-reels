@@ -1,0 +1,13 @@
+run 42581324886 2026-11-09T07:49:50Z
+Tema: undefined | escenas: 5
+paso: voz
+paso: render
+paso: audio
+paso: codificar
+Vídeo listo: {
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/3b242d66ae685def.mp4',
+  seconds: 22.7,
+  frames: 681
+}
+Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/3b242d66ae685def.mp4 video/mp4 5532298
+DRY_RUN: no se avisa a Make

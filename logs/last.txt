@@ -1,2 +1,13 @@
-run 42687410610 2026-11-09T19:52:37Z
-Make respondió 200 Accepted
+run 42774765064 2026-11-10T07:34:10Z
+Tema: Tuesday mito: reservar por plataforma sale gratis y es lo mismo que tener tu propia web | escenas: 8
+paso: voz
+paso: render
+paso: audio
+paso: codificar
+Vídeo listo: {
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/e8381f1b79b03473.mp4',
+  seconds: 40.7,
+  frames: 1222
+}
+Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/e8381f1b79b03473.mp4 video/mp4 8933873
+Make avisado

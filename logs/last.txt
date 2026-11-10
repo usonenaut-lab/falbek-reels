@@ -1,13 +1,20 @@
-run 42774765064 2026-11-10T07:34:10Z
-Tema: Tuesday mito: reservar por plataforma sale gratis y es lo mismo que tener tu propia web | escenas: 8
+run 42807963794 2026-11-10T11:59:47Z
+Tema: El mito de que las plataformas de reservas te traen clientes gratis | escenas: 9
 paso: voz
 paso: render
 paso: audio
 paso: codificar
 Vídeo listo: {
-  file: '/home/runner/work/falbek-reels/falbek-reels/files/e8381f1b79b03473.mp4',
-  seconds: 40.7,
-  frames: 1222
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/5f6f740f8c1d926d.mp4',
+  seconds: 48.8,
+  frames: 1463
 }
-Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/e8381f1b79b03473.mp4 video/mp4 8933873
-Make avisado
+file:///home/runner/work/falbek-reels/falbek-reels/script/daily.mjs:61
+  throw new Error('GitHub Pages no sirvió el vídeo a tiempo: ' + url);
+        ^
+
+Error: GitHub Pages no sirvió el vídeo a tiempo: https://usonenaut-lab.github.io/falbek-reels/videos/5f6f740f8c1d926d.mp4
+    at publishToPages (file:///home/runner/work/falbek-reels/falbek-reels/script/daily.mjs:61:9)
+    at async file:///home/runner/work/falbek-reels/falbek-reels/script/daily.mjs:70:18
+
+Node.js v22.23.4

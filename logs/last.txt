@@ -1,14 +1,13 @@
-run 43011099091 2026-11-11T11:31:08Z
-Intento 1 de guion fallido: escena 5 incompleta
-Tema: Antes y después: web propia con reservas sin comisiones (ejemplo ilustrativo) | escenas: 9
+run 43210934678 2026-11-12T11:51:59Z
+Tema: Reservas propias sin comisiones: la web del negocio como canal directo | escenas: 9
 paso: voz
 paso: render
 paso: audio
 paso: codificar
 Vídeo listo: {
-  file: '/home/runner/work/falbek-reels/falbek-reels/files/39d8b81bb5a5c823.mp4',
-  seconds: 42.5,
-  frames: 1276
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/da4001903a4fb0ca.mp4',
+  seconds: 41.4,
+  frames: 1242
 }
-Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/39d8b81bb5a5c823.mp4 video/mp4 9651590
+Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/da4001903a4fb0ca.mp4 video/mp4 9473968
 Make avisado

@@ -22,6 +22,7 @@ if (env.PUBLISH_TEST === '1') {          // prueba del escenario de publicación
 }
 
 async function getScript() {
+  if (env.JOB_B64) return parseJson(Buffer.from(env.JOB_B64, 'base64').toString('utf8'));
   if (env.JOB_JSON) return parseJson(env.JOB_JSON);
   let last;
   for (let k = 1; k <= 3; k++) {

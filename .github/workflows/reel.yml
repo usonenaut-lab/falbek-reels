@@ -3,6 +3,9 @@ name: Reel diario
 on:
   workflow_dispatch:
     inputs:
+      job_b64:
+        description: 'Contenido del día codificado en base64 (lo envía Make cada madrugada)'
+        required: false
       job_json:
         description: 'Guion en JSON (opcional; si se deja vacío se pide a Make)'
         required: false
@@ -55,6 +58,7 @@ jobs:
           MAKE_SCRIPT_URL: ${{ secrets.MAKE_SCRIPT_URL }}
           MAKE_PUBLISH_URL: ${{ secrets.MAKE_PUBLISH_URL }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JOB_B64: ${{ github.event.inputs.job_b64 }}
           JOB_JSON: ${{ github.event.inputs.job_json }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
           PUBLISH_PAGES: ${{ github.event.inputs.publish_pages == '1' && '1' || '' }}

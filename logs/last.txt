@@ -1,13 +1,26 @@
-run 43210934678 2026-11-12T11:51:59Z
-Tema: Reservas propias sin comisiones: la web del negocio como canal directo | escenas: 9
+run 43389190783 2026-11-13T08:03:04Z
+Tema: PRUEBA de historias y fotos | escenas: 5 | historias: 3 | post: 3 diapositivas
 paso: voz
 paso: render
 paso: audio
 paso: codificar
 Vídeo listo: {
-  file: '/home/runner/work/falbek-reels/falbek-reels/files/da4001903a4fb0ca.mp4',
-  seconds: 41.4,
-  frames: 1242
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/f970fc29bc29ce33.mp4',
+  seconds: 20.3,
+  frames: 610
 }
-Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/da4001903a4fb0ca.mp4 video/mp4 9473968
-Make avisado
+Imágenes listas: 3 historias, 3 diapositivas
+Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/f970fc29bc29ce33.mp4 video/mp4 5032474
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/story1.jpg image/jpeg 105019
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/story2.jpg image/jpeg 117134
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/story3.jpg image/jpeg 107046
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/post1.jpg image/jpeg 78828
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/post2.jpg image/jpeg 106915
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/post3.jpg image/jpeg 90265
+Plan de hoy: {"day":5,"postDay":true,"reel_ig":"2027-12-31T08:00:00","reel_tt":"2027-12-31T09:00:00","post":"2027-12-31T10:00:00","stories":["2027-12-31T11:00:00","2027-12-31T12:00:00","2027-12-31T13:00:00"]}
+Enviado a Make: reel 2027-12-31T08:00:00
+Enviado a Make: post 2027-12-31T10:00:00
+Enviado a Make: story 2027-12-31T11:00:00
+Enviado a Make: story 2027-12-31T12:00:00
+Enviado a Make: story 2027-12-31T13:00:00
+Todo enviado a Make

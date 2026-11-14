@@ -1,17 +1,22 @@
-run 43551967904 2026-11-14T03:40:56Z
-Tema: Reservas sin comisiones: tu propia web reserva por ti | escenas: 10 | historias: 3 | post: no
+run 43584117252 2026-11-14T10:23:45Z
+Tema: Las reservas por comisión: lo que se paga sin darte cuenta | escenas: 8 | historias: 3 | post: no
 paso: voz
 paso: render
 paso: audio
 paso: codificar
 Vídeo listo: {
-  file: '/home/runner/work/falbek-reels/falbek-reels/files/7b969f09c037eb20.mp4',
-  seconds: 48,
-  frames: 1441
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/bcb87aaca69813d2.mp4',
+  seconds: 37.1,
+  frames: 1112
 }
 Imágenes listas: 3 historias, 0 diapositivas
-Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/7b969f09c037eb20.mp4 video/mp4 10552509
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/7b969f09c037eb20/story1.jpg image/jpeg 96640
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/7b969f09c037eb20/story2.jpg image/jpeg 115408
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/7b969f09c037eb20/story3.jpg image/jpeg 104954
-DRY_RUN: no se avisa a Make
+Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/bcb87aaca69813d2.mp4 video/mp4 8733281
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/bcb87aaca69813d2/story1.jpg image/jpeg 86594
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/bcb87aaca69813d2/story2.jpg image/jpeg 125047
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/bcb87aaca69813d2/story3.jpg image/jpeg 110859
+Plan de hoy: {"day":6,"postDay":false,"reel_ig":"2026-11-14T11:31:00","reel_tt":"2026-11-14T18:00:00","post":"2026-11-14T15:00:00","stories":["2026-11-14T15:00:00","2026-11-14T17:30:00","2026-11-14T20:00:00"]}
+Enviado a Make: reel 2026-11-14T11:31:00
+Enviado a Make: story 2026-11-14T15:00:00
+Enviado a Make: story 2026-11-14T17:30:00
+Enviado a Make: story 2026-11-14T20:00:00
+Todo enviado a Make

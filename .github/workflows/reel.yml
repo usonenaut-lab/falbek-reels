@@ -12,7 +12,7 @@ on:
       dry_run:
         description: '1 = no avisar a Make para publicar'
         required: false
-        default: '1'
+        default: '0'
       publish_test:
         description: '1 = solo probar el escenario de publicación de Make con un vídeo ya subido'
         required: false
@@ -28,7 +28,7 @@ on:
       publish_pages:
         description: '1 = en modo dry_run, subir también el vídeo a GitHub Pages'
         required: false
-        default: '1'
+        default: '0'
 
 concurrency:
   group: reel

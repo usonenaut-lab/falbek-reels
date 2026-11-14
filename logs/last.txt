@@ -1,26 +1,17 @@
-run 43389190783 2026-11-13T08:03:04Z
-Tema: PRUEBA de historias y fotos | escenas: 5 | historias: 3 | post: 3 diapositivas
+run 43530010255 2026-11-14T00:00:08Z
+Tema: Reserva directa en tu propia web, sin comisiones por cada reserva | escenas: 9 | historias: 3 | post: no
 paso: voz
 paso: render
 paso: audio
 paso: codificar
 Vídeo listo: {
-  file: '/home/runner/work/falbek-reels/falbek-reels/files/f970fc29bc29ce33.mp4',
-  seconds: 20.3,
-  frames: 610
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/a6ec4698b405a844.mp4',
+  seconds: 45.9,
+  frames: 1378
 }
-Imágenes listas: 3 historias, 3 diapositivas
-Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/f970fc29bc29ce33.mp4 video/mp4 5032474
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/story1.jpg image/jpeg 105019
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/story2.jpg image/jpeg 117134
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/story3.jpg image/jpeg 107046
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/post1.jpg image/jpeg 78828
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/post2.jpg image/jpeg 106915
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/f970fc29bc29ce33/post3.jpg image/jpeg 90265
-Plan de hoy: {"day":5,"postDay":true,"reel_ig":"2027-12-31T08:00:00","reel_tt":"2027-12-31T09:00:00","post":"2027-12-31T10:00:00","stories":["2027-12-31T11:00:00","2027-12-31T12:00:00","2027-12-31T13:00:00"]}
-Enviado a Make: reel 2027-12-31T08:00:00
-Enviado a Make: post 2027-12-31T10:00:00
-Enviado a Make: story 2027-12-31T11:00:00
-Enviado a Make: story 2027-12-31T12:00:00
-Enviado a Make: story 2027-12-31T13:00:00
-Todo enviado a Make
+Imágenes listas: 3 historias, 0 diapositivas
+Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/a6ec4698b405a844.mp4 video/mp4 9960604
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/a6ec4698b405a844/story1.jpg image/jpeg 95668
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/a6ec4698b405a844/story2.jpg image/jpeg 118706
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/a6ec4698b405a844/story3.jpg image/jpeg 107294
+DRY_RUN: no se avisa a Make

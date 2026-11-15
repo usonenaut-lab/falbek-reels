@@ -1,22 +1,27 @@
-run 43584117252 2026-11-14T10:23:45Z
-Tema: Las reservas por comisión: lo que se paga sin darte cuenta | escenas: 8 | historias: 3 | post: no
+run 43672661110 2026-11-15T03:38:58Z
+Tema: Reservas sin comisiones: tu web, tu cliente | escenas: 7 | historias: 3 | post: 4 diapositivas
 paso: voz
 paso: render
 paso: audio
 paso: codificar
 Vídeo listo: {
-  file: '/home/runner/work/falbek-reels/falbek-reels/files/bcb87aaca69813d2.mp4',
-  seconds: 37.1,
-  frames: 1112
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/d6fd0048ba1ec93a.mp4',
+  seconds: 35.8,
+  frames: 1075
 }
-Imágenes listas: 3 historias, 0 diapositivas
-Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/bcb87aaca69813d2.mp4 video/mp4 8733281
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/bcb87aaca69813d2/story1.jpg image/jpeg 86594
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/bcb87aaca69813d2/story2.jpg image/jpeg 125047
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/bcb87aaca69813d2/story3.jpg image/jpeg 110859
-Plan de hoy: {"day":6,"postDay":false,"reel_ig":"2026-11-14T11:31:00","reel_tt":"2026-11-14T18:00:00","post":"2026-11-14T15:00:00","stories":["2026-11-14T15:00:00","2026-11-14T17:30:00","2026-11-14T20:00:00"]}
-Enviado a Make: reel 2026-11-14T11:31:00
-Enviado a Make: story 2026-11-14T15:00:00
-Enviado a Make: story 2026-11-14T17:30:00
-Enviado a Make: story 2026-11-14T20:00:00
+Imágenes listas: 3 historias, 4 diapositivas
+Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/d6fd0048ba1ec93a.mp4 video/mp4 7930435
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/d6fd0048ba1ec93a/story1.jpg image/jpeg 95805
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/d6fd0048ba1ec93a/story2.jpg image/jpeg 116359
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/d6fd0048ba1ec93a/story3.jpg image/jpeg 109529
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/d6fd0048ba1ec93a/post1.jpg image/jpeg 98156
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/d6fd0048ba1ec93a/post2.jpg image/jpeg 109556
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/d6fd0048ba1ec93a/post3.jpg image/jpeg 101607
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/d6fd0048ba1ec93a/post4.jpg image/jpeg 86663
+Plan de hoy: {"day":7,"postDay":false,"reel_ig":"2026-11-15T09:45:00","reel_tt":"2026-11-15T12:00:00","post":"2026-11-15T13:30:00","stories":["2026-11-15T13:50:00","2026-11-15T16:48:00","2026-11-15T19:46:00"]}
+Enviado a Make: reel 2026-11-15T09:45:00
+Enviado a Make: post 2026-11-15T13:30:00
+Enviado a Make: story 2026-11-15T13:50:00
+Enviado a Make: story 2026-11-15T16:48:00
+Enviado a Make: story 2026-11-15T19:46:00
 Todo enviado a Make

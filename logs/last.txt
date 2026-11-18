@@ -1,22 +1,22 @@
-run 44010694480 2026-11-17T03:41:39Z
-Tema: Reservas sin comisiones: tu web, tu agenda | escenas: 11 | historias: 3 | post: no
+run 44230880764 2026-11-18T03:53:26Z
+Tema: Reservas sin comisiones: tu web, tu cliente, tus reglas | escenas: 9 | historias: 3 | post: no
 paso: voz
 paso: render
 paso: audio
 paso: codificar
 Vídeo listo: {
-  file: '/home/runner/work/falbek-reels/falbek-reels/files/9b05134e29858492.mp4',
-  seconds: 49.4,
-  frames: 1483
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/1e23575bf30ad9e6.mp4',
+  seconds: 46.9,
+  frames: 1406
 }
 Imágenes listas: 3 historias, 0 diapositivas
-Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/9b05134e29858492.mp4 video/mp4 11182699
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/9b05134e29858492/story1.jpg image/jpeg 97627
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/9b05134e29858492/story2.jpg image/jpeg 124764
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/9b05134e29858492/story3.jpg image/jpeg 109677
-Plan de hoy: {"day":2,"postDay":false,"reel_ig":"2026-11-17T08:15:00","reel_tt":"2026-11-17T09:00:00","post":"2026-11-17T13:00:00","stories":["2026-11-17T13:00:00","2026-11-17T16:15:00","2026-11-17T19:30:00"]}
-Enviado a Make: reel 2026-11-17T08:15:00
-Enviado a Make: story 2026-11-17T13:00:00
-Enviado a Make: story 2026-11-17T16:15:00
-Enviado a Make: story 2026-11-17T19:30:00
+Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/1e23575bf30ad9e6.mp4 video/mp4 10290754
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/1e23575bf30ad9e6/story1.jpg image/jpeg 90366
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/1e23575bf30ad9e6/story2.jpg image/jpeg 109141
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/1e23575bf30ad9e6/story3.jpg image/jpeg 92016
+Plan de hoy: {"day":3,"postDay":true,"reel_ig":"2026-11-18T09:00:00","reel_tt":"2026-11-18T14:00:00","post":"2026-11-18T14:00:00","stories":["2026-11-18T14:00:00","2026-11-18T17:38:00","2026-11-18T21:15:00"]}
+Enviado a Make: reel 2026-11-18T09:00:00
+Enviado a Make: story 2026-11-18T14:00:00
+Enviado a Make: story 2026-11-18T17:38:00
+Enviado a Make: story 2026-11-18T21:15:00
 Todo enviado a Make

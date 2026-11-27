@@ -1,22 +1,22 @@
-run 45934559127 2026-11-27T03:43:21Z
-Tema: Reservas sin comisiones con web propia | escenas: 8 | historias: 3 | post: no
+run 45961965987 2026-11-27T08:06:20Z
+Tema: Panel de gestión: ves todas las reservas del día de un vistazo, las confirmas o cancelas y llevas el control sin papeles. | escenas: 8 | historias: 3 | post: 5 diapositivas
 paso: voz
 paso: render
 paso: audio
 paso: codificar
 Vídeo listo: {
-  file: '/home/runner/work/falbek-reels/falbek-reels/files/10c2e5e44e0b1f5c.mp4',
-  seconds: 38.6,
-  frames: 1159
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/fbab2a5531d52d1f.mp4',
+  seconds: 43.5,
+  frames: 1306
 }
-Imágenes listas: 3 historias, 0 diapositivas
-Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/10c2e5e44e0b1f5c.mp4 video/mp4 8083924
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/10c2e5e44e0b1f5c/story1.jpg image/jpeg 92586
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/10c2e5e44e0b1f5c/story2.jpg image/jpeg 121471
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/10c2e5e44e0b1f5c/story3.jpg image/jpeg 123708
-Plan de hoy: {"day":5,"postDay":true,"reel_ig":"2026-11-27T07:00:00","reel_tt":"2026-11-27T12:00:00","post":"2026-11-27T11:45:00","stories":["2026-11-27T11:45:00","2026-11-27T15:00:00","2026-11-27T18:15:00"]}
-Enviado a Make: reel 2026-11-27T07:00:00
-Enviado a Make: story 2026-11-27T11:45:00
-Enviado a Make: story 2026-11-27T15:00:00
-Enviado a Make: story 2026-11-27T18:15:00
-Todo enviado a Make
+Imágenes listas: 3 historias, 5 diapositivas
+Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/fbab2a5531d52d1f.mp4 video/mp4 9032035
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/story1.jpg image/jpeg 81254
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/story2.jpg image/jpeg 111561
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/story3.jpg image/jpeg 100665
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/post1.jpg image/jpeg 92215
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/post2.jpg image/jpeg 83553
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/post3.jpg image/jpeg 104887
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/post4.jpg image/jpeg 88405
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/post5.jpg image/jpeg 90933
+DRY_RUN: no se avisa a Make

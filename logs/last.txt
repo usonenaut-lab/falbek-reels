@@ -1,22 +1,22 @@
-run 45961965987 2026-11-27T08:06:20Z
-Tema: Panel de gestión: ves todas las reservas del día de un vistazo, las confirmas o cancelas y llevas el control sin papeles. | escenas: 8 | historias: 3 | post: 5 diapositivas
+run 46103157367 2026-11-28T03:41:24Z
+Tema: Pensada para el móvil: la web se ve y funciona perfecta en el teléfono, rápida y fácil de usar con una mano. Comparamos una web mal adaptada con una bien hecha. | escenas: 8 | historias: 3 | post: no
 paso: voz
 paso: render
 paso: audio
 paso: codificar
 Vídeo listo: {
-  file: '/home/runner/work/falbek-reels/falbek-reels/files/fbab2a5531d52d1f.mp4',
-  seconds: 43.5,
-  frames: 1306
+  file: '/home/runner/work/falbek-reels/falbek-reels/files/0b4c6e33e31d3a8b.mp4',
+  seconds: 36.5,
+  frames: 1095
 }
-Imágenes listas: 3 historias, 5 diapositivas
-Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/fbab2a5531d52d1f.mp4 video/mp4 9032035
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/story1.jpg image/jpeg 81254
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/story2.jpg image/jpeg 111561
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/story3.jpg image/jpeg 100665
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/post1.jpg image/jpeg 92215
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/post2.jpg image/jpeg 83553
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/post3.jpg image/jpeg 104887
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/post4.jpg image/jpeg 88405
-Disponible: https://usonenaut-lab.github.io/falbek-reels/media/fbab2a5531d52d1f/post5.jpg image/jpeg 90933
-DRY_RUN: no se avisa a Make
+Imágenes listas: 3 historias, 0 diapositivas
+Disponible: https://usonenaut-lab.github.io/falbek-reels/videos/0b4c6e33e31d3a8b.mp4 video/mp4 8223221
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/0b4c6e33e31d3a8b/story1.jpg image/jpeg 88199
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/0b4c6e33e31d3a8b/story2.jpg image/jpeg 126237
+Disponible: https://usonenaut-lab.github.io/falbek-reels/media/0b4c6e33e31d3a8b/story3.jpg image/jpeg 121570
+Plan de hoy: {"day":6,"postDay":false,"reel_ig":"2026-11-28T10:30:00","reel_tt":"2026-11-28T18:00:00","post":"2026-11-28T15:00:00","stories":["2026-11-28T15:00:00","2026-11-28T17:30:00","2026-11-28T20:00:00"]}
+Enviado a Make: reel 2026-11-28T10:30:00
+Enviado a Make: story 2026-11-28T15:00:00
+Enviado a Make: story 2026-11-28T17:30:00
+Enviado a Make: story 2026-11-28T20:00:00
+Todo enviado a Make
